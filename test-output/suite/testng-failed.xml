@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <test thread-count="5" name="OpenNewAccount(failed)">
+    <classes>
+      <class name="com.Parabank_PageTest.TC_003_OpenNewAccount_Test">
+        <methods>
+          <include name="Accountnumber_into_the_Excel"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Parabank_PageTest.TC_003_OpenNewAccount_Test -->
+    </classes>
+  </test> <!-- OpenNewAccount(failed) -->
+</suite> <!-- Failed suite [suite] -->

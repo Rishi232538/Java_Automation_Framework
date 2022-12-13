@@ -1,0 +1,30 @@
+<suite name="suite">
+	
+  <test name = "Register" thread-count="1">
+     <classes>
+      	<class name="com.Parabank_PageTest.TC_001_Register_Test"/>
+	</classes>
+</test> 
+
+<test name = "LoginDetails" thread-count="1">
+  	 <classes>
+      	<class name="com.Parabank_PageTest.TC_002_LoginDetails_Test"/>
+	</classes>
+	
+ </test>
+ 
+ <test name = "OpenNewAccount" thread-count="1">
+      	<classes>
+      	<class name="com.Parabank_PageTest.TC_003_OpenNewAccount_Test"/>
+      </classes>
+  
+  </test> 
+  
+  <test name = "VerifyingAccount" thread-count="1">
+      	<classes>
+      	<class name="com.Parabank_PageTest.TC_004_VerifyingAccount_Test"/>
+      </classes>
+  
+  </test> 
+  
+</suite> 
